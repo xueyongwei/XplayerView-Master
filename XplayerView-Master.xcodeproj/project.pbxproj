@@ -13,6 +13,11 @@
 		475B82941D17F9AD00335801 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 475B82921D17F9AD00335801 /* Main.storyboard */; };
 		475B82961D17F9AD00335801 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 475B82951D17F9AD00335801 /* Assets.xcassets */; };
 		475B82991D17F9AD00335801 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 475B82971D17F9AD00335801 /* LaunchScreen.storyboard */; };
+		475B82A61D17F9C000335801 /* 播放按钮@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 475B82A01D17F9C000335801 /* 播放按钮@2x.png */; };
+		475B82A71D17F9C000335801 /* 播放按钮@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 475B82A11D17F9C000335801 /* 播放按钮@3x.png */; };
+		475B82A81D17F9C000335801 /* 指针@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 475B82A21D17F9C000335801 /* 指针@2x.png */; };
+		475B82A91D17F9C000335801 /* 指针@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 475B82A31D17F9C000335801 /* 指针@3x.png */; };
+		475B82AE1D17F9D500335801 /* XplayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 475B82AD1D17F9D500335801 /* XplayView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +31,12 @@
 		475B82951D17F9AD00335801 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		475B82981D17F9AD00335801 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		475B829A1D17F9AD00335801 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		475B82A01D17F9C000335801 /* 播放按钮@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "播放按钮@2x.png"; sourceTree = "<group>"; };
+		475B82A11D17F9C000335801 /* 播放按钮@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "播放按钮@3x.png"; sourceTree = "<group>"; };
+		475B82A21D17F9C000335801 /* 指针@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "指针@2x.png"; sourceTree = "<group>"; };
+		475B82A31D17F9C000335801 /* 指针@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "指针@3x.png"; sourceTree = "<group>"; };
+		475B82AC1D17F9D500335801 /* XplayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XplayView.h; sourceTree = "<group>"; };
+		475B82AD1D17F9D500335801 /* XplayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XplayView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +69,16 @@
 		475B82881D17F9AD00335801 /* XplayerView-Master */ = {
 			isa = PBXGroup;
 			children = (
+				475B82AB1D17F9D500335801 /* XplayerView */,
 				475B828C1D17F9AD00335801 /* AppDelegate.h */,
 				475B828D1D17F9AD00335801 /* AppDelegate.m */,
 				475B828F1D17F9AD00335801 /* ViewController.h */,
 				475B82901D17F9AD00335801 /* ViewController.m */,
 				475B82921D17F9AD00335801 /* Main.storyboard */,
+				475B82A01D17F9C000335801 /* 播放按钮@2x.png */,
+				475B82A11D17F9C000335801 /* 播放按钮@3x.png */,
+				475B82A21D17F9C000335801 /* 指针@2x.png */,
+				475B82A31D17F9C000335801 /* 指针@3x.png */,
 				475B82951D17F9AD00335801 /* Assets.xcassets */,
 				475B82971D17F9AD00335801 /* LaunchScreen.storyboard */,
 				475B829A1D17F9AD00335801 /* Info.plist */,
@@ -77,6 +93,15 @@
 				475B828A1D17F9AD00335801 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		475B82AB1D17F9D500335801 /* XplayerView */ = {
+			isa = PBXGroup;
+			children = (
+				475B82AC1D17F9D500335801 /* XplayView.h */,
+				475B82AD1D17F9D500335801 /* XplayView.m */,
+			);
+			path = XplayerView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,9 +161,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				475B82A91D17F9C000335801 /* 指针@3x.png in Resources */,
 				475B82991D17F9AD00335801 /* LaunchScreen.storyboard in Resources */,
 				475B82961D17F9AD00335801 /* Assets.xcassets in Resources */,
+				475B82A61D17F9C000335801 /* 播放按钮@2x.png in Resources */,
+				475B82A71D17F9C000335801 /* 播放按钮@3x.png in Resources */,
 				475B82941D17F9AD00335801 /* Main.storyboard in Resources */,
+				475B82A81D17F9C000335801 /* 指针@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,6 +178,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				475B82AE1D17F9D500335801 /* XplayView.m in Sources */,
 				475B82911D17F9AD00335801 /* ViewController.m in Sources */,
 				475B828E1D17F9AD00335801 /* AppDelegate.m in Sources */,
 				475B828B1D17F9AD00335801 /* main.m in Sources */,
@@ -263,10 +293,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: rui xue (T4RS6C3JB9)";
 				INFOPLIST_FILE = "XplayerView-Master/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.happy.XplayerView-Master";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "d0e707fc-51cb-402b-9351-8dff5df5d22d";
 			};
 			name = Debug;
 		};
@@ -274,10 +306,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: rui xue (T4RS6C3JB9)";
 				INFOPLIST_FILE = "XplayerView-Master/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.happy.XplayerView-Master";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "d0e707fc-51cb-402b-9351-8dff5df5d22d";
 			};
 			name = Release;
 		};
